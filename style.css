@@ -1,0 +1,185 @@
+body{
+    background: url(img/bg.png);
+    cursor: url(img/bee.gif), auto;
+}
+
+header{
+    padding-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Handlee', cursive;
+    line-height: 40px;
+}
+
+.vovo{
+    display: inline-block;
+}
+
+.titulo{
+    display: inline-block;
+}
+
+header h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline #ff0000;
+}
+
+header h2{
+    text-align: left;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.front{
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 20px 20px rgb(0,0,0,25%);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.pregadorA{
+    float:left;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgb(0,0,0,25%);
+}
+
+.pregadorB{
+    float: right;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgb(0,0,0,25%);
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    color: #ff0000;
+}
+
+u{
+    text-decoration: underline;
+    color: #06f;
+}
+
+main h2{
+    font-family: 'Handlee', cursive;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.mais{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    text-align: center;
+}
+
+main h3{
+    font-family: 'Handlee', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main p{
+    font-family: 'Sunflower', sans-serif;
+    font-size: 16px;
+}
+
+table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: left;
+    font-family: 'Handlee', cursive;
+}
+
+td{
+    padding: auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.destaque{
+    font-weight: bold;
+    text-align: center;
+}
+
+.destaque-a{
+    font-weight: bold;
+    text-align: right;
+}
+
+.valor{
+    border: #fa8072 2px solid;
+    text-align: center;
+    color: #06f;
+}
+
+.vazio{
+    color: #fff;
+}
+
+a{
+    margin: 1%;
+}
+
+a:hover{
+    opacity: 0.7;
+    cursor: url(img/bee.gif), auto;
+}
+
+footer{
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header h1{
+        font-size: 32px;
+    }
+    
+    header h2{
+        font-size: 16px;
+    }
+    
+    main h2{
+        font-size: 20px;
+    }
+
+    main h3{
+        font-size: 12px;
+    }
+
+    .mais{
+        font-size: 32px;
+    }
+
+    main p{
+        font-size: 10px;
+    }
+
+    td{
+        font-size: 12px;
+    }
+
+}
