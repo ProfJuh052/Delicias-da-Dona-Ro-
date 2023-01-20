@@ -1,6 +1,6 @@
 body{
-    background: url(img/bg.png);
-    cursor: url(img/bee.gif), auto;
+    background: url(bg.png);
+    cursor: url(bee.gif), auto;
 }
 
 header{
@@ -140,7 +140,7 @@ a{
 
 a:hover{
     opacity: 0.7;
-    cursor: url(img/bee.gif), auto;
+    cursor: url(bee.gif), auto;
 }
 
 footer{
